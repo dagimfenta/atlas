@@ -23,8 +23,8 @@ const Hero = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-atlas-black)]/60 via-[var(--color-atlas-black)]/40 to-[var(--color-atlas-black)] z-10" />
         <img
-          src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2400&q=80"
-          alt="Luxury car in dramatic lighting"
+          src="/hero-car.jpg"
+          alt="Luxury Rolls Royce in dramatic urban setting"
           className="w-full h-full object-cover object-center scale-110"
           onLoad={(e) => e.currentTarget.classList.add('loaded')}
         />
